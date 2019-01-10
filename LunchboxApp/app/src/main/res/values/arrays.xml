@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location_listentries">
+        <item>Berlin Springpfuhl</item>
+        <item>Neubrandenburg</item>
+    </string-array>
+</resources>

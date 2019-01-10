@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:title="@string/pref_location"
+        android:key="pref_location">
+        <ListPreference 
+            android:key="pref_location_choose"
+            android:title="Standorte"
+            android:summary="@string/pref_choosen_location"
+            android:entries="@array/location_listentries"
+            android:entryValues="@array/location_listentries"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
